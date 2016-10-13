@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+
+    <string name="app_name">Inventory</string>
+
+    <string name="action_save">Save</string>
+
+    <string name="action_delete">Delete</string>
+
+    <string name="category_overview">Overview</string>
+
+    <string name="category_unit_price">Unit Price</string>
+
+    <string name="hint_name">Name</string>
+
+    <string name="quantity">Quantity</string>
+
+    <string name="sold">Sold</string>
+
+    <string name="price">Price</string>
+
+    <string name="unit_price">$</string>
+
+    <string name="inventory_saved">Product Saved</string>
+
+    <string name="inventory_saved_error">Error with saving product</string>
+
+    <string name="empty_view_title_text">It\'s a bit lonely here...</string>
+
+    <string name="empty_view_subtitle_text">Get started by adding a product</string>
+
+    <string name="unsaved_changes_dialog_msg">Discard your changes and quit editing?</string>
+
+    <string name="discard">Discard</string>
+
+    <string name="keep_editing">Keep Editing</string>
+
+    <string name="editor_delete_product_successful">Product deleted</string>
+
+    <string name="editor_delete_product_failed">Error with deleting product</string>
+
+    <string name="delete_dialog_msg">Delete this product?</string>
+
+    <string name="delete">Delete</string>
+
+    <string name="cancel">Cancel</string>
+
+    <string name="price_required_error">Unit price is required</string>
+
+    <string name="name_required_error">Product name is required</string>
+
+    <string name="email_app_needed">You need an email app to send the request</string>
+
+</resources>

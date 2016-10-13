@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?><!-- Layout for a single list item in the list of pets -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/list_product"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="@dimen/activity_margin">
+
+    <TextView
+        android:id="@+id/name"
+        style="@style/ListTitleStyle"
+        android:layout_marginBottom="16dp"
+        tools:text="Candle" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/quantity_text"
+            style="@style/ListTextStyle"
+            android:text="@string/quantity" />
+
+        <TextView
+            android:id="@+id/quantity"
+            style="@style/ListTextStyle"
+            android:layout_marginLeft="8dp"
+            android:layout_toRightOf="@id/quantity_text"
+            tools:text="3300" />
+
+        <TextView
+            android:id="@+id/sold_text"
+            style="@style/ListTextStyle"
+            android:layout_below="@id/quantity_text"
+            android:text="@string/sold" />
+
+
+        <TextView
+            android:id="@+id/sold"
+            style="@style/ListTextStyle"
+            android:layout_below="@id/quantity"
+            android:layout_marginLeft="32dp"
+            android:layout_toRightOf="@id/sold_text"
+            tools:text="3" />
+
+
+        <TextView
+            android:id="@+id/price"
+            style="@style/ListTextStyle"
+            android:layout_alignParentRight="true"
+            android:layout_marginLeft="6dp"
+            tools:text="35" />
+
+        <TextView
+            android:id="@+id/price_text"
+            style="@style/ListTextStyle"
+            android:layout_toLeftOf="@id/price"
+            android:text="@string/price" />
+
+    </RelativeLayout>
+
+
+    <Button
+        android:id="@+id/sale_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sale" />
+</LinearLayout>
